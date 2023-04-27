@@ -1,0 +1,27 @@
+.transaction_history {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.transaction_history th {
+  background-color: #c97f7f;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.transaction_history tr:nth-child(odd) {
+  background-color: #e0b8b8;
+}
+
+.transaction_history tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.transaction_history td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 8px;
+  text-align: left;
+}
